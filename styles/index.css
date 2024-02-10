@@ -1,0 +1,38 @@
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: aquamarine;
+   
+}
+
+.container{
+    background-color:bisque;
+    border-radius: 10px;
+    padding: 15px;
+    width: 60%;
+
+}
+
+.registration{
+    font-family: 'Protest Strike', sans-serif;
+    text-align: center;
+    border-bottom: 3px dashed greenyellow;
+}
+form .container2{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+form .container2 .inputbox{
+    width: calc(100%/2 - 20px);
+    margin: 10px;
+
+}
+
+form .container2 .inputbox input{
+    height: 45px;
+    width: 100%;
+}
